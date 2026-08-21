@@ -1,0 +1,9 @@
+import numpy as np
+
+marks = np.array([78, 65, 89, 45, 92, 56, 73, 81, 68, 95])
+
+print("Average marks:", np.mean(marks))
+print("Highest marks:", np.max(marks))
+print("Lowest marks:", np.min(marks))
+print("Students above 75:", np.sum(marks > 75))
+print("Marks below 50:", marks[marks < 50])
